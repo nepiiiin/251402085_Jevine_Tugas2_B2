@@ -1,0 +1,67 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a5d6a7, #81c784); /* tema hijau lembut */
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* rata tengah horizontal */
+    align-items: center;      /* rata tengah vertikal */
+  }
+
+  .login-box {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+
+  .login-box h2 {
+    color: #2e7d32;
+    margin-bottom: 25px;
+  }
+
+  .login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #81c784;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.2s;
+  }
+
+  .login-box input:focus {
+    border-color: #388e3c;
+    box-shadow: 0 0 5px #81c784;
+  }
+
+  .login-box button {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+
+  .login-box button:hover {
+    background-color: #2e7d32; /* warna berubah saat hover */
+  }
+
+  .login-box a {
+    display: block;
+    margin-top: 15px;
+    color: #2e7d32;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .login-box a:hover {
+    text-decoration: underline;
+  }
